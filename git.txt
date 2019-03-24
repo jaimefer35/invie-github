@@ -12,3 +12,8 @@ git branch -l
 
 RENOMBREAR RAMAS
 git branch -m R1 R2
+
+MOVERSE ENTRE RAMAS Y commits
+
+git checkout RD
+
