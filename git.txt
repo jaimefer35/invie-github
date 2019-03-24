@@ -1,0 +1,14 @@
+Comandos Git.
+ git status
+ git add (file)
+ git commit -m "mensaje del commit"
+ git log --oneline
+
+RAMA
+CREAR RAMAS
+git branch responsive 
+LISTA RAMAS
+git branch -l 
+
+RENOMBREAR RAMAS
+git branch -m R1 R2
