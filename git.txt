@@ -17,3 +17,32 @@ MOVERSE ENTRE RAMAS Y commits
 
 git checkout RD
 
+git rebase (Reescribe la historia de tu proyecto)
+git rebase: hace prácticamente lo mismo que merge, cambiamos la historia de nuestro proyecto sin crear bifurcaciones del proyecto. Es mejor usar merge
+Usar solo git rebase de manera local.
+
+-i: de manera interactiva, nos abrira el editor que tengamos definido en la configuración de git.
+
+
+git stash (Guardando cambios temporalmente)
+git stash: es otro de los limbos, como el staging area. Para agregar los cambios estos deben estar en el staging area.
+git stash list: nos muestra la lista de stash que tengamos.
+git stash drop stash@{numero}: nos permite borrar un stash.
+git stash apply: aplicamos el último cambio
+
+
+
+2 formas de traer tus cambios de github a tu repo local:
+
+git fetch: descarga los cambios a una rama generalmente llamada origin/master, seguido de esto tienes que fuisonar esa rama
+git pull: es como ejecutar los 2 pasos anteriores(fetch y merge) en uno solo
+
+
+Asi subimos nuestros cambios a github:
+git push origin master
+
+Tambien podemos enviar los tags:
+git push origin master --tags
+
+Podemos enviar otras ramas:
+git push origin [otra_rama]
